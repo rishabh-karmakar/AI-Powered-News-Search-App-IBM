@@ -1,0 +1,15 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: noderedtsmartb
+  buildpack: sdk-for-nodejs
+  command: npm start
+  disk_quota: 1G
+  memory: 256MB
+  domain: eu-gb.mybluemix.net
+  host: tsbnews
+  services:
+    - node-red-tsmartb-cloudant-1588829621189-90915
+  env:
+    OPTIMIZE_MEMORY: true
