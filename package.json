@@ -15,7 +15,7 @@
         "node-red-nodes-cf-sqldb-dashdb": "0.x",
         "node-red-dashboard": "2.x",
         "node-red-contrib-slack":"2.x",
-        "node-red-contrib-slackbot":"2.x",
+        "node-red-contrib-slackbot":"1.x",
         "node-red-node-sentiment":"0.x",
         "node-red-node-twitter":"1.x"
     },
