@@ -22,6 +22,7 @@ This code pattern shows you how to tap into massive data sets to mine insight. T
 We propose the use of IBM Discovery, IBM Watson and IBM Node-RED.
 
 Discovery:
+
 ![image](https://user-images.githubusercontent.com/48029688/82014015-4fba6600-9699-11ea-89d8-016b5840a1b4.png)
 
 ![image](https://user-images.githubusercontent.com/48029688/82014302-f69f0200-9699-11ea-8e91-d16050f95a1c.png)
@@ -41,11 +42,68 @@ SOFTWARE:
 ![image](https://user-images.githubusercontent.com/48029688/82014730-d4f24a80-969a-11ea-931f-bee9d0ca39ad.png)
 
 ## Result
+![AI_Smart1](https://user-images.githubusercontent.com/48029688/82014897-2d294c80-969b-11ea-94c1-2a4152a5b597.gif)
 
+Node-Red Flow:
+
+![image](https://user-images.githubusercontent.com/48029688/82016543-e3dafc00-969e-11ea-9b85-8f45271e6997.png)
+![image](https://user-images.githubusercontent.com/48029688/82016528-df164800-969e-11ea-842b-a5fd799b1684.png)
+
+Output:
+Main Search Page:
+
+![image](https://user-images.githubusercontent.com/48029688/82016641-1ab11200-969f-11ea-8c42-b403f5ce7358.png)
+![image](https://user-images.githubusercontent.com/48029688/82016646-1dac0280-969f-11ea-96ef-14a30f0e6b5a.png)
+
+Trending:
+
+![image](https://user-images.githubusercontent.com/48029688/82016656-21d82000-969f-11ea-9d10-ce993635c0d1.png)
+
+Slack Integration:
+
+![image](https://user-images.githubusercontent.com/48029688/82016782-62d03480-969f-11ea-84a2-26c2b3016931.png)
+![image](https://user-images.githubusercontent.com/48029688/82016791-65cb2500-969f-11ea-9612-3ef17aec8de0.png)
+![image](https://user-images.githubusercontent.com/48029688/82016794-68c61580-969f-11ea-86a8-c7bac57f6fb9.png)
+
+### Advantages and Disadvantages:
+The following advantages and disadvantages are observed.
+
+Advantages:
+
+* Complete integration with Discovery, Twitter and Slack
+* News coming with sentiment analysis done
+* Singular commands needed for slack to get news
+* Getting recent tweets real-time.
+* Option to get trending news realtime
+
+Disadvantages
+
+* Currently only 3 search results, but that can be easily increased with more functions.
+* Since it does store tweets and only displays recent ones, searching for non-popular keywords may find less occurent tweets.
+
+
+
+### APPLICATIONS
+
+* A full fledged software or website with real-time applications
+* Getting news articles fast and reliable with score and other metadata informations
+* Sentiment analysis on the data
+* Can be used as an everyday-app to browse and get news real-time, anytime in the day
+
+### CONCLUSION
+
+So here, we created this application on the web with sentiment analysis, slack integration and embedded using Node-Red and Watson Discovery. 
+
+### FUTURE SCOPE
+
+* The future scope may include:
+* Adding Watson assistant to it.
+* News search using audio and converting that using speech-to-text.
+* Using language translator to view news in regional languages.
+* Adding language translator with audio to enable search and results in regional language.
 
 Node-RED IBM Cloud Starter Application
 ====================================
-
 
 ### Node-RED on IBM Cloud
 
