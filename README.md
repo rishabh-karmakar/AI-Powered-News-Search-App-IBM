@@ -1,5 +1,8 @@
 # AI Powered News Search App using IBM Cloud Services
 
+# [Watch the video: Link](https://www.youtube.com/watch?v=7wZutVgPWuo&t=106s)
+[![Watch the video: Link](https://user-images.githubusercontent.com/48029688/82014897-2d294c80-969b-11ea-94c1-2a4152a5b597.gif)](https://www.youtube.com/watch?v=QlzXNx46c6I)
+
 The web is home to massive amounts of data, with more being created every day. Organizations can harness this constant stream of information to gain understanding, plan strategies, and find opportunities. Enriched news data can help your application make dynamic connections across current events faster.
 This app allows the user to search for any news at any time. The Watson discovery service used has an inbuilt collection of news in various topics which brings news to the doorstep in a jiffy.
 
