@@ -1,5 +1,46 @@
 # AI Powered News Search App using IBM Cloud Services
 
+The web is home to massive amounts of data, with more being created every day. Organizations can harness this constant stream of information to gain understanding, plan strategies, and find opportunities. Enriched news data can help your application make dynamic connections across current events faster.
+This app allows the user to search for any news at any time. The Watson discovery service used has an inbuilt collection of news in various topics which brings news to the doorstep in a jiffy.
+
+In this project, we’ll start with the basics and build our own news mining web application using Node-RED / Python Web App and the IBM Watson Discovery Service. 
+
+To do this, we’ll:
+1. Build a Server Side Application using Node-RED
+2. Use the pre-built Watson Discovery News collection
+3. Access the Watson Discovery Service through the Discovery API
+
+Optionally, we can choose to:
+1. Use a Slack interface to query the data
+2. Push news alerts out to web notification
+3. Deploy the app on IBM Cloud
+
+This code pattern shows you how to tap into massive data sets to mine insight. The app demonstrates two use cases using Watson Discovery News:
+* **Search:** Query for the most relevant new articles about a specific topic or subject. Because the news collection is pre-enriched with natural language processing, you can query not just on keywords or categories but also on concepts, sentiment, and relations to get richer search responses.
+* **Trending topics in the news:** Identify popular topics over the past 24 hours. Topics can be general or specific to an industry or category.
+
+We propose the use of IBM Discovery, IBM Watson and IBM Node-RED.
+
+Discovery:
+![image](https://user-images.githubusercontent.com/48029688/82014015-4fba6600-9699-11ea-89d8-016b5840a1b4.png)
+
+![image](https://user-images.githubusercontent.com/48029688/82014302-f69f0200-9699-11ea-8e91-d16050f95a1c.png)
+
+1. The user interacts with the app UI(Built with Node-RED or Cloud or Local) to request relevant news content.
+2. The app sends user requests to Watson Discovery News.
+3. The Watson Discovery Service is continually crawling the web to update its Discovery News collection.
+4. The Watson Discovery Service responds to Slack search requests.
+
+SOFTWARE:
+* Code is written in Node.js, with the server-side using the Express framework and the client using ReactJS.
+* The pre-built Watson Discovery News collection was used.
+* Access the Watson Discovery Service through the Discovery API.
+* Use a Slack interface to query the data
+
+## FLOWCHART
+![image](https://user-images.githubusercontent.com/48029688/82014730-d4f24a80-969a-11ea-931f-bee9d0ca39ad.png)
+
+## Result
 
 
 Node-RED IBM Cloud Starter Application
